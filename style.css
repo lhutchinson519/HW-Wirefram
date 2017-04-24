@@ -31,17 +31,20 @@ div.nav { position: relative;
 li {
   display: inline-block;
 }
-div.section { margin-top: 37px;
+
+#section { margin-top: 37px;
   position: relative;
   width: 495px;
-  height: 300px;
+  height: 250px;
   background-color: #ebebeb;
   color: #777;
   text-align: center;
   padding-top: 40px;
+  float: left;
+  margin-left: -39px;
 }
 
-#article {
+div.article {
   margin-top: 50px;
   position: relative;
   width: 470px;
@@ -53,14 +56,32 @@ div.section { margin-top: 37px;
   margin: 10px;
 }
 
-div.aside { margin-top: 37px;
+div.h {
+  /*position: relative;*/
+ border-style: solid;
+ background-color: #ebebeb;
+ color: #777;
+ text-align: center;
+}
+
+div.p {
   position: relative;
-  width: 420px;
-  height: 200px;
+ border-style: solid;
+ background-color: #ebebeb;
+ color: #777;
+ text-align: center;
+}
+
+div.aside {
+  position: relative;
+  width: 440px;
+  height: 250px;
   background-color: #ebebeb;
   color: #777;
   text-align: center;
   padding-top: 40px;
+  float: left;
+  margin-left: 15px;
 }
 
 
