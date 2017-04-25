@@ -35,7 +35,7 @@ li {
 #section { margin-top: 5px;
   position: relative;
   width: 495px;
-  height: 250px;
+  height: 230px;
   background-color: #ebebeb;
   color: #777;
   text-align: center;
@@ -77,7 +77,7 @@ div.p {
 div.aside {
   position: relative;
   width: 440px;
-  height: 250px;
+  height: 230px;
   background-color: #ebebeb;
   color: #777;
   text-align: center;
@@ -90,7 +90,7 @@ div.aside {
 div.footer {
   position: relative;
   text-align: center;
-  top: 15px;
+  top: 1px;
   bottom: 60px;
   width: 960x;
   height: 90px;
